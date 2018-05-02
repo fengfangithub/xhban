@@ -1,0 +1,126 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.register_content{
+    width: 100%;
+    height:600px;
+    background-image: url("../image/image2.jpg");
+    background-size: cover;
+    position: relative;
+}
+.layout{
+    width: 280px;
+    height:390px;
+    right: 150px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding: 30px 30px;
+    box-shadow: 0 0 20px #dddddd;
+    background-color: #ffffff;
+    position: absolute;
+}
+.layout h3{
+    margin: 0;
+    color: #646464;
+}
+.input_div{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+}
+.input_div input{
+    width: 250px;
+    height: 40px;
+    padding: 5px 15px;
+    border: none;
+    border-bottom: 1px solid #b7bdc2;
+    outline: none;
+    font-size: 0.8em;
+    color: #838383;
+}
+.verification_code_div{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    margin-top: 20px;
+}
+.verification_code_div input{
+    width: 135px;
+    height: 40px;
+    padding: 5px 15px;
+    border: none;
+    border-bottom: 1px solid #b7bdc2;
+    outline: none;
+    font-size: 0.8em;
+    color: #838383;
+    float: left;
+}
+.verification_code_div a{
+    display: block;
+    font-size: 0.7em;
+    float: right;
+    height: 40px;
+    width: 95px;
+    line-height: 40px;
+    border: 1px solid #b7bdc2;
+    text-align: center;
+    color: #c9c9c9;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.error_div{
+    width: 100%;
+    height: 20px;
+}
+.agreement_div{
+    width: 100%;
+    height: 20px;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    color: #838383;
+}
+.agreement_div span{
+    color: #5781f9;
+    cursor: pointer;
+}
+.button_div{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 8px;
+    line-height: 50px;
+}
+.button_div button{
+    width: 280px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 0.8em;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #5781f9;
+    color: #ffffff;
+    cursor: pointer;
+}
+.func_div{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+.func_div a{
+    font-size: 0.7em;
+    cursor: pointer;
+    color: #838383;
+}
+.func_div a:first-child{
+    float: left;
+}
+.func_div a:first-child span{
+    margin-left: 10px;
+    color: #5781f9;
+}

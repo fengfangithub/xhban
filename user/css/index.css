@@ -1,0 +1,303 @@
+html body{
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+/*导航区*/
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+}
+.header_wrapper{
+    width: 1150px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header_wrapper .logo{
+    width: 12%;
+    height: 100%;
+    line-height: 75px;
+    color: #83c0ff;
+    font-size: 1.5em;
+    float: left;
+}
+.search_content{
+    width: 47%;
+    height: 40px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #b7bdc2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left:20%;
+}
+.search_content input{
+    width: calc(100% - 45px);
+    height: 30px;
+    outline: none;
+    padding: 5px 0;
+    border: none;
+    margin-left: 15px;
+    font-size: 0.9em;
+    color: #b7bdc2;
+    line-height: 30px;
+    float: left;
+}
+.search_content span{
+    display: block;
+    width: 30px;
+    color: #b7bdc2;
+    float: right;
+    height: 42px;
+    line-height: 42px;
+}
+.release{
+    width: 70px;
+    position: absolute;
+    left: 67%;
+    text-align: center;
+    height: 39px;
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+    cursor: pointer;
+}
+.release span{
+    color: #b7bdc2;
+    display: block;
+    text-align: center;
+}
+.release span:first-child{
+    font-size: 1.2em;
+}
+.release span:last-child{
+    font-size: 0.6em;
+    margin-top: 5px;
+}
+.login{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+    width:40px;
+    height: 27px;
+    cursor: pointer;
+}
+.login span{
+    font-size: 1.4em;
+    color: #b7bdc2;
+    display: block;
+    text-align: center;
+}
+/*个人信息和功能区*/
+.wrapper{
+    width: 1150px;
+    margin: 0 auto;
+    height: auto;
+}
+.nav_right{
+    height: auto;
+    float: right;
+    width: calc(32% - 70px);
+}
+.person_information{
+    width: calc(100% - 30px);
+    height: 180px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    position: relative;
+    padding: 15px;
+}
+.person_left{
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+.person_left img{
+    width: 100px;
+    height: 100px;
+}
+.person_left span{
+    color: #838383;
+}
+.person_right{
+    float: right;
+    width: calc(100% - 120px);
+}
+.person_right a{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #575757;
+}
+.person_right span{
+    float: right;
+    margin: 5px 10px 0 0;
+    font-size: 0.8em;
+    color: #60bfe9;
+    font-weight: bold;
+}
+.signature{
+    font-size: 0.75em;
+    margin-top: 10px;
+    text-indent: 2em;
+    color: #787878;
+}
+.func{
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    position: relative;
+}
+.func:last-child{
+    height: 240px;
+}
+.func_title{
+    display: block;
+    width: calc(100% - 20px);
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid #a8a8a8;
+    padding: 0 10px;
+}
+.func_title span:first-child{
+    margin:0 20px 0 15px;
+    font-size: 1.4em;
+    color: #a82b20;
+}
+.func_title span:last-child{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    color: #4f4f4f;
+}
+.func_content{
+    display: block;
+    height: 35px;
+    margin: 10px 40px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #f0f3f5;
+    border-radius: 5px;
+    color: #bcc0c6;
+    letter-spacing: 0.4em;
+    cursor: pointer;
+}
+/*活动展示区*/
+.nav_left{
+    height: 100px;
+    float: left;
+    width: 72.5%;
+    padding: 10px 0;
+}
+.activity{
+    width: 100%;
+    height: auto;
+}
+.shuffling{
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+}
+.activity header{
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+}
+.activity header a{
+    display: block;
+    width: 200px;
+    height: 100%;
+    background-color: #ffffff;
+    line-height: 45px;
+}
+.activity header a span:first-child{
+    color: #a82b20;
+    margin: 0 15px 0 20px;
+}
+.activity header a span:last-child{
+    color: #787878;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+.activity_content{
+    width: calc(100% - 20px);
+    background-color: #ffffff;
+    height: auto;
+    padding: 10px;
+}
+.basic_information{
+    width: 100%;
+    height: 60px;
+}
+.basic_information img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.basic_information a{
+    float: left;
+    color: #c6554c;
+    font-size: 0.75em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.basic_information p{
+    margin: 0;
+    padding: 0;
+}
+.basic_information p span{
+    font-size: 0.7em;
+    color: #797d80;
+}
+.basic_information p span:first-child{
+    margin: 0 10px 0 10px;
+}
+.describe{
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    font-size: 0.7em;
+    margin: 10px 0;
+}
+.image{
+    width: 100%;
+    height: 70px;
+}
+.image img{
+    width: 70px;
+    height: 100%;
+    margin-right: 10px;
+}
+.active_state{
+    width: 100%;
+    height: 40px;
+}
+.heart{
+    width: 200px;
+    height: 100%;
+    line-height: 40px;
+    margin-left: 100px;
+    float: left;
+}
+.heart span:first-child{
+    color: #c6554c;
+    margin-right: 5px;
+}
+.heart span:last-child{
+    font-size: 0.8em;
+}
+.join{
+    width: 200px;
+    height: 100%;
+    line-height: 40px;
+    margin-left: 100px;
+    float: left;
+}
+.join span{
+    font-size: 0.8em;
+}
